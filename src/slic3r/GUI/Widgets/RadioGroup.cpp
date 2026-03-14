@@ -1,4 +1,4 @@
-#include "RadioGroup.hpp"
+﻿#include "RadioGroup.hpp"
 #include "Label.hpp"
 #include "StateColor.hpp"
 
@@ -41,7 +41,7 @@ void RadioGroup::Create(
 
     m_focus_color = StateColor(
         std::pair(bg                 , (int)StateColor::NotFocused),
-        std::pair(wxColour("#009688"), (int)StateColor::Focused)
+        std::pair(wxColour("#DC2626"), (int)StateColor::Focused)
     );
 
     auto bmp_size   = m_on.GetBmpSize();

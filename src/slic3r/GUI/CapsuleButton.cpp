@@ -1,4 +1,4 @@
-#include "GUI_App.hpp"
+﻿#include "GUI_App.hpp"
 #include "CapsuleButton.hpp"
 #include <wx/dcbuffer.h>
 #include "wx/graphics.h"
@@ -13,7 +13,7 @@ static const wxColour TextNormalColor = wxColour("#262E30");
 static const wxColour TextSelectColor = wxColour("#262E30"); // ORCA use same color on selected to improve readability
 
 static const wxColour BorderNormalColor   = wxColour("#CECECE");
-static const wxColour BorderSelectColor = wxColour("#009688");
+static const wxColour BorderSelectColor = wxColour("#DC2626");
 
 CapsuleButton::CapsuleButton(wxWindow *parent, wxWindowID id, const wxString &label, bool selected) : wxPanel(parent, id)
 {

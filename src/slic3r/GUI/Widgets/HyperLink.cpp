@@ -1,4 +1,4 @@
-#include "HyperLink.hpp"
+﻿#include "HyperLink.hpp"
 #include "Label.hpp"
 
 namespace Slic3r { namespace GUI {
@@ -7,7 +7,7 @@ HyperLink::HyperLink(wxWindow* parent, const wxString& label, const wxString& ur
     : wxStaticText(parent, wxID_ANY, label)
     , m_url(url)
     , m_normalColor(wxColour("#009687")) // used slightly different color otherwise automatically uses ColorForDark that not visible enough
-    , m_hoverColor(wxColour("#26A69A"))
+    , m_hoverColor(wxColour("#EF4444"))
 {
     SetForegroundColour(m_normalColor);
     HyperLink::SetFont(Label::Head_14);

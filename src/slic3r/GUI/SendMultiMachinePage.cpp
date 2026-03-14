@@ -1,4 +1,4 @@
-#include "SendMultiMachinePage.hpp"
+﻿#include "SendMultiMachinePage.hpp"
 #include "TaskManager.hpp"
 #include "I18N.hpp"
 
@@ -211,7 +211,7 @@ void SendDeviceItem::doRender(wxDC& dc)
 
     //device state
     if (state_printable <= 2) {
-        dc.SetTextForeground(wxColour(0, 150, 136));
+        dc.SetTextForeground(wxColour(220, 38, 38));
     }
     else {
         dc.SetTextForeground(wxColour(208, 27, 27));
@@ -236,7 +236,7 @@ void SendDeviceItem::doRender(wxDC& dc)
     }
 
     if (m_hover) {
-        dc.SetPen(wxPen(wxColour(0, 150, 136)));
+        dc.SetPen(wxPen(wxColour(220, 38, 38)));
         dc.SetBrush(*wxTRANSPARENT_BRUSH);
         dc.DrawRoundedRectangle(0, 0, size.x, size.y, 3);
     }

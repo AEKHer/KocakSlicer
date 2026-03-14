@@ -1,4 +1,4 @@
-#include "TabButton.hpp"
+﻿#include "TabButton.hpp"
 #include "Widgets/Label.hpp"
 
 #include <wx/dcclient.h>
@@ -14,7 +14,7 @@ EVT_PAINT(TabButton::paintEvent)
 
 END_EVENT_TABLE()
 
-static wxColour BORDER_HOVER_COL = wxColour(0, 150, 136);
+static wxColour BORDER_HOVER_COL = wxColour(220, 38, 38);
 
 const static wxColour TAB_BUTTON_BG    = wxColour("#FEFFFF");
 const static wxColour TAB_BUTTON_SEL   = wxColour("#BFE1DE"); // ORCA

@@ -1,4 +1,4 @@
-#include "FilamentGroupPopup.hpp"
+﻿#include "FilamentGroupPopup.hpp"
 #include "GUI_App.hpp"
 #include "MsgDialog.hpp"
 #include "wx/dcgraph.h"
@@ -10,7 +10,7 @@ namespace Slic3r { namespace GUI {
 static const wxColour LabelEnableColor = wxColour("#262E30");
 static const wxColour LabelDisableColor = wxColour("#ACACAC");
 static const wxColour GreyColor = wxColour("#6B6B6B");
-static const wxColour GreenColor = wxColour("#009688");
+static const wxColour GreenColor = wxColour("#DC2626");
 static const wxColour BackGroundColor = wxColour("#FFFFFF");
 
 

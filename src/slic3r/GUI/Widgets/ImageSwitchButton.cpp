@@ -1,4 +1,4 @@
-#include "ImageSwitchButton.hpp"
+﻿#include "ImageSwitchButton.hpp"
 #include "Label.hpp"
 #include "StaticBox.hpp"
 #include "../wxExtensions.hpp"
@@ -27,7 +27,7 @@ EVT_PAINT(FanSwitchButton::paintEvent)
 
 END_EVENT_TABLE()
 
-static const wxColour DEFAULT_HOVER_COL = wxColour(0, 150, 136);
+static const wxColour DEFAULT_HOVER_COL = wxColour(220, 38, 38);
 static const wxColour DEFAULT_PRESS_COL = wxColour(238, 238, 238);
 
 ImageSwitchButton::ImageSwitchButton(wxWindow *parent, ScalableBitmap &img_on, ScalableBitmap &img_off, long style)

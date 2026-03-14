@@ -1,4 +1,4 @@
-#include "UpgradePanel.hpp"
+﻿#include "UpgradePanel.hpp"
 #include <slic3r/GUI/Widgets/SideTools.hpp>
 #include <slic3r/GUI/Widgets/Label.hpp>
 #include <slic3r/GUI/I18N.hpp>
@@ -14,7 +14,7 @@
 namespace Slic3r {
 namespace GUI {
 
-static const wxColour TEXT_NORMAL_CLR = wxColour(0, 150, 136);
+static const wxColour TEXT_NORMAL_CLR = wxColour(220, 38, 38);
 static const wxColour TEXT_FAILED_CLR = wxColour(255, 111, 0);
 
 static const std::unordered_map<wxString, wxString> ACCESSORY_DISPLAY_STR = {

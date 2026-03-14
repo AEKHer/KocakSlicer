@@ -1,0 +1,45 @@
+{
+    "name": "KocakPrinter",
+    "version": "01.00.00.01",
+    "force_update": "0",
+    "description": "KocakPrinter 3D Printer profiles",
+    "machine_model_list": [
+        {
+            "name": "KPSteel i3",
+            "sub_path": "machine/KPSteel i3.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "0.12mm Fine @KPSteel i3",
+            "sub_path": "process/0.12mm Fine @KPSteel i3.json"
+        },
+        {
+            "name": "0.16mm Optimal @KPSteel i3",
+            "sub_path": "process/0.16mm Optimal @KPSteel i3.json"
+        },
+        {
+            "name": "0.20mm Standard @KPSteel i3",
+            "sub_path": "process/0.20mm Standard @KPSteel i3.json"
+        },
+        {
+            "name": "0.28mm Draft @KPSteel i3",
+            "sub_path": "process/0.28mm Draft @KPSteel i3.json"
+        }
+    ],
+    "filament_list": [],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "KPSteel i3 0.4 nozzle",
+            "sub_path": "machine/KPSteel i3 0.4 nozzle.json"
+        }
+    ]
+}

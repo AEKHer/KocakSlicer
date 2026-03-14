@@ -1,0 +1,12 @@
+{
+    "type": "machine_model",
+    "name": "KPSteel i3",
+    "model_id": "kocak_kpsteel_i3",
+    "nozzle_diameter": "0.4",
+    "machine_tech": "FFF",
+    "family": "KocakPrinter",
+    "bed_model": "",
+    "bed_texture": "",
+    "hotend_model": "",
+    "default_materials": "Generic PLA @System;Generic PETG @System;Generic ABS @System;Generic TPU @System;Generic ASA @System"
+}
