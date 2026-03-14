@@ -1,4 +1,4 @@
-﻿#include "SendMultiMachinePage.hpp"
+#include "SendMultiMachinePage.hpp"
 #include "TaskManager.hpp"
 #include "I18N.hpp"
 

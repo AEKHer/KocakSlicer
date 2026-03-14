@@ -1,4 +1,4 @@
-﻿#include "HyperLink.hpp"
+#include "HyperLink.hpp"
 #include "Label.hpp"
 
 namespace Slic3r { namespace GUI {

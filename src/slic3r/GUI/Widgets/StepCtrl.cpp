@@ -1,4 +1,4 @@
-﻿#include "StepCtrl.hpp"
+#include "StepCtrl.hpp"
 #include "Label.hpp"
 
 #include <wx/dc.h>

@@ -1,4 +1,4 @@
-﻿#include "ImGuiWrapper.hpp"
+#include "ImGuiWrapper.hpp"
 
 #include <cstdio>
 #include <vector>

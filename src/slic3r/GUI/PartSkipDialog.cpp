@@ -1,4 +1,4 @@
-﻿#include "GUI_Utils.hpp"
+#include "GUI_Utils.hpp"
 #include "GUI_App.hpp"
 #include <wx/panel.h>
 #include <wx/bitmap.h>

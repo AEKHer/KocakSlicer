@@ -1,4 +1,4 @@
-﻿#include "TextInput.hpp"
+#include "TextInput.hpp"
 #include "Label.hpp"
 #include "TextCtrl.h"
 #include "slic3r/GUI/Widgets/Label.hpp"

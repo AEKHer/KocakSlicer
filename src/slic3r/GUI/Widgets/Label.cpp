@@ -1,4 +1,4 @@
-﻿#include "libslic3r/Utils.hpp"
+#include "libslic3r/Utils.hpp"
 #include "Label.hpp"
 #include "StaticBox.hpp"
 #include <wx/intl.h> // For wxLocale

@@ -1,4 +1,4 @@
-﻿#include "Button.hpp"
+#include "Button.hpp"
 #include "Label.hpp"
 
 #include <wx/dcgraph.h>

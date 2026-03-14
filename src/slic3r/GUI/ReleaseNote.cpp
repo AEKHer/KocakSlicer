@@ -1,4 +1,4 @@
-﻿#include "ReleaseNote.hpp"
+#include "ReleaseNote.hpp"
 #include "I18N.hpp"
 
 #include "libslic3r/Utils.hpp"

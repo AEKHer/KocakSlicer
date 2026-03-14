@@ -1,4 +1,4 @@
-﻿#include "ImageSwitchButton.hpp"
+#include "ImageSwitchButton.hpp"
 #include "Label.hpp"
 #include "StaticBox.hpp"
 #include "../wxExtensions.hpp"

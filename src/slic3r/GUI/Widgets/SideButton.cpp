@@ -1,4 +1,4 @@
-﻿#include "SideButton.hpp"
+#include "SideButton.hpp"
 #include "Label.hpp"
 
 #include <wx/dcclient.h>

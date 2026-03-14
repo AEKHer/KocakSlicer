@@ -1,4 +1,4 @@
-﻿#include "SyncAmsInfoDialog.hpp"
+#include "SyncAmsInfoDialog.hpp"
 
 #include <thread>
 #include <wx/event.h>

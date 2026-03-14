@@ -1,4 +1,4 @@
-﻿#include "ComboBox.hpp"
+#include "ComboBox.hpp"
 #include "Label.hpp"
 
 #include <wx/dcgraph.h>

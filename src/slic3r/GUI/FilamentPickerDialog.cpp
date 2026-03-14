@@ -1,4 +1,4 @@
-﻿#include "FilamentPickerDialog.hpp"
+#include "FilamentPickerDialog.hpp"
 #include "GUI.hpp"
 #include "I18N.hpp"
 #include "GUI_App.hpp"

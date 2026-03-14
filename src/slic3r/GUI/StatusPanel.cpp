@@ -1,4 +1,4 @@
-﻿#include "StatusPanel.hpp"
+#include "StatusPanel.hpp"
 #include "I18N.hpp"
 #include "Widgets/Label.hpp"
 #include "Widgets/Button.hpp"

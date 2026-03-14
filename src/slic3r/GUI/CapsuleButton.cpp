@@ -1,4 +1,4 @@
-﻿#include "GUI_App.hpp"
+#include "GUI_App.hpp"
 #include "CapsuleButton.hpp"
 #include <wx/dcbuffer.h>
 #include "wx/graphics.h"

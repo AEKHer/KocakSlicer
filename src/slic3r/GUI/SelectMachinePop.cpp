@@ -1,4 +1,4 @@
-﻿#include "SelectMachinePop.hpp"
+#include "SelectMachinePop.hpp"
 #include "I18N.hpp"
 
 #include "libslic3r/Utils.hpp"

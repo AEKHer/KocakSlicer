@@ -1,4 +1,4 @@
-﻿#include "TabButton.hpp"
+#include "TabButton.hpp"
 #include "Widgets/Label.hpp"
 
 #include <wx/dcclient.h>

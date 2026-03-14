@@ -1,4 +1,4 @@
-﻿#include "FilamentMapPanel.hpp"
+#include "FilamentMapPanel.hpp"
 #include "GUI_App.hpp"
 #include <wx/dcbuffer.h>
 #include "wx/graphics.h"

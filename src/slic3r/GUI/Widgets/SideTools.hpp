@@ -1,4 +1,4 @@
-﻿#ifndef slic3r_GUI_SIDETOOLS_hpp_
+#ifndef slic3r_GUI_SIDETOOLS_hpp_
 #define slic3r_GUI_SIDETOOLS_hpp_
 
 #include <wx/dcgraph.h>

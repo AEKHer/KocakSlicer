@@ -1,4 +1,4 @@
-﻿#include "CalibrationWizardPage.hpp"
+#include "CalibrationWizardPage.hpp"
 #include "I18N.hpp"
 #include "Widgets/Label.hpp"
 #include "MsgDialog.hpp"

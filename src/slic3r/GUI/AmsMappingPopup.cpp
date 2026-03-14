@@ -1,4 +1,4 @@
-﻿#include "AmsMappingPopup.hpp"
+#include "AmsMappingPopup.hpp"
 #include "I18N.hpp"
 
 #include "libslic3r/Utils.hpp"

@@ -1,4 +1,4 @@
-﻿#include "ProgressBar.hpp"
+#include "ProgressBar.hpp"
 #include "../I18N.hpp"
 #include <wx/dcclient.h>
 #include <wx/dcgraph.h>

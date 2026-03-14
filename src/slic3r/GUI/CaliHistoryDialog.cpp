@@ -1,4 +1,4 @@
-﻿#include "CaliHistoryDialog.hpp"
+#include "CaliHistoryDialog.hpp"
 #include "I18N.hpp"
 
 #include "libslic3r/Utils.hpp"

@@ -1,4 +1,4 @@
-﻿#include "Notebook.hpp"
+#include "Notebook.hpp"
 
 //#ifdef _WIN32
 

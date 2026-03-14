@@ -1,4 +1,4 @@
-﻿#include "MultiMachineManagerPage.hpp"
+#include "MultiMachineManagerPage.hpp"
 #include "GUI_App.hpp"
 #include "MainFrame.hpp"
 

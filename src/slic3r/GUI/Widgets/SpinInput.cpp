@@ -1,4 +1,4 @@
-﻿#include "SpinInput.hpp"
+#include "SpinInput.hpp"
 #include "Label.hpp"
 #include "Button.hpp"
 #include "TextCtrl.h"

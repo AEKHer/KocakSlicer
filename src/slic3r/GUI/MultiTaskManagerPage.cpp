@@ -1,4 +1,4 @@
-﻿#include "MultiTaskManagerPage.hpp"
+#include "MultiTaskManagerPage.hpp"
 #include "I18N.hpp"
 
 #include "GUI_App.hpp"

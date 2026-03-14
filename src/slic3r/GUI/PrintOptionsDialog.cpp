@@ -1,4 +1,4 @@
-﻿#include "PrintOptionsDialog.hpp"
+#include "PrintOptionsDialog.hpp"
 #include "I18N.hpp"
 #include "GUI_App.hpp"
 #include "libslic3r/Utils.hpp"

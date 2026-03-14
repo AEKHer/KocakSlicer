@@ -1,4 +1,4 @@
-﻿#include "MediaFilePanel.h"
+#include "MediaFilePanel.h"
 #include "ImageGrid.h"
 #include "I18N.hpp"
 #include "GUI_App.hpp"

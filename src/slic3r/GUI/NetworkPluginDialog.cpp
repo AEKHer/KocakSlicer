@@ -1,4 +1,4 @@
-﻿#include "NetworkPluginDialog.hpp"
+#include "NetworkPluginDialog.hpp"
 #include "I18N.hpp"
 #include "GUI_App.hpp"
 #include "MainFrame.hpp"

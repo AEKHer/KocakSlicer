@@ -1,4 +1,4 @@
-﻿#include "FanControl.hpp"
+#include "FanControl.hpp"
 #include "Label.hpp"
 #include "../BitmapCache.hpp"
 #include "../I18N.hpp"

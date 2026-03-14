@@ -1,4 +1,4 @@
-﻿#ifndef slic3r_Project_hpp_
+#ifndef slic3r_Project_hpp_
 #define slic3r_Project_hpp_
 
 #include "Tabbook.hpp"

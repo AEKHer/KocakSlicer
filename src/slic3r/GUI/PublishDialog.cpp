@@ -1,4 +1,4 @@
-﻿#include "PublishDialog.hpp"
+#include "PublishDialog.hpp"
 #include "GUI_App.hpp"
 
 #include <wx/wx.h> 

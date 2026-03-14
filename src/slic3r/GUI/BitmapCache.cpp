@@ -1,4 +1,4 @@
-﻿#include "BitmapCache.hpp"
+#include "BitmapCache.hpp"
 
 #include "libslic3r/Utils.hpp"
 #include "../Utils/MacDarkMode.hpp"

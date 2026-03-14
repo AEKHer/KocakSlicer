@@ -1,4 +1,4 @@
-﻿#include "SwitchButton.hpp"
+#include "SwitchButton.hpp"
 #include "Label.hpp"
 #include "StaticBox.hpp"
 

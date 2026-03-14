@@ -1,4 +1,4 @@
-﻿#include "RadioGroup.hpp"
+#include "RadioGroup.hpp"
 #include "Label.hpp"
 #include "StateColor.hpp"
 

@@ -1,4 +1,4 @@
-﻿#include "libslic3r/libslic3r.h"
+#include "libslic3r/libslic3r.h"
 #include "GCodeViewer.hpp"
 
 #include "libslic3r/BuildVolume.hpp"

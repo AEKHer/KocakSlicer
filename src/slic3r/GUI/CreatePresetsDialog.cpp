@@ -1,4 +1,4 @@
-﻿#include "CreatePresetsDialog.hpp"
+#include "CreatePresetsDialog.hpp"
 #include <boost/log/trivial.hpp>
 #include <vector>
 #include <set>

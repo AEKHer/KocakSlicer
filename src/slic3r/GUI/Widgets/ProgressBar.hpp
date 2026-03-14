@@ -1,4 +1,4 @@
-﻿#ifndef slic3r_GUI_ProgressBar_hpp_
+#ifndef slic3r_GUI_ProgressBar_hpp_
 #define slic3r_GUI_ProgressBar_hpp_
 
 #include <wx/window.h>

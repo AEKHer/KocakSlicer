@@ -1,4 +1,4 @@
-﻿#ifndef slic3r_Auxiliary_hpp_
+#ifndef slic3r_Auxiliary_hpp_
 #define slic3r_Auxiliary_hpp_
 
 #include "Tabbook.hpp"

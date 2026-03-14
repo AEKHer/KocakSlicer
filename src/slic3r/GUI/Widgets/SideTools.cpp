@@ -1,4 +1,4 @@
-﻿#include "SideTools.hpp"
+#include "SideTools.hpp"
 #include "bambu_networking.hpp"
 #include <wx/dcmemory.h>
 #include <wx/dcgraph.h>

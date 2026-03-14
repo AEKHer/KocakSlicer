@@ -1,4 +1,4 @@
-﻿#include "DropDown.hpp"
+#include "DropDown.hpp"
 #include "Label.hpp"
 
 #include <cstdio>

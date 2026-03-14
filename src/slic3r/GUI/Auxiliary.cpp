@@ -1,4 +1,4 @@
-﻿#include "Tab.hpp"
+#include "Tab.hpp"
 #include "Auxiliary.hpp"
 #include "libslic3r/Utils.hpp"
 #include "libslic3r/Model.hpp"

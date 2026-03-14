@@ -1,4 +1,4 @@
-﻿#include "BBLStatusBarPrint.hpp"
+#include "BBLStatusBarPrint.hpp"
 
 #include <wx/timer.h>
 #include <wx/gauge.h>

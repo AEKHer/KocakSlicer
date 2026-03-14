@@ -1,4 +1,4 @@
-﻿#include "AMSMaterialsSetting.hpp"
+#include "AMSMaterialsSetting.hpp"
 #include "ExtrusionCalibration.hpp"
 #include "MsgDialog.hpp"
 #include "GUI_App.hpp"

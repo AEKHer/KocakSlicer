@@ -1,4 +1,4 @@
-﻿#include "Plater.hpp"
+#include "Plater.hpp"
 #include "libslic3r/Config.hpp"
 #include "libslic3r_version.h"
 

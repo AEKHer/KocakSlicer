@@ -1,4 +1,4 @@
-﻿#include "FilamentGroupPopup.hpp"
+#include "FilamentGroupPopup.hpp"
 #include "GUI_App.hpp"
 #include "MsgDialog.hpp"
 #include "wx/dcgraph.h"

@@ -1,4 +1,4 @@
-﻿#include "TabCtrl.hpp"
+#include "TabCtrl.hpp"
 
 #include <wx/dc.h>
 
