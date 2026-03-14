@@ -25,8 +25,8 @@ SafetyOptionsDialog::SafetyOptionsDialog(wxWindow* parent)
     : DPIDialog(parent, wxID_ANY, _L("Safety Options"), wxDefaultPosition, wxDefaultSize, wxCAPTION | wxCLOSE_BOX)
 {
     this->SetDoubleBuffered(true);
-    std::string icon_path = (boost::format("%1%/images/OrcaSlicerTitle.ico") % resources_dir()).str();
-    SetIcon(wxIcon(encode_path(icon_path.c_str()), wxBITMAP_TYPE_ICO));
+    std::string icon_path = (boost::format("%1%/images/KocakSlicer_128px.png") % resources_dir()).str();
+    SetIcon(wxIcon(encode_path(icon_path.c_str()), wxBITMAP_TYPE_PNG));
     SetBackgroundColour(*wxWHITE);
     SetSize(FromDIP(480),FromDIP(320));
 

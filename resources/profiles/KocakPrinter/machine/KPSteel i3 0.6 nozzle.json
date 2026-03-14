@@ -1,0 +1,37 @@
+{
+    "type": "machine",
+    "name": "KPSteel i3 0.6 nozzle",
+    "inherits": "fdm_machine_common",
+    "from": "system",
+    "setting_id": "KP003",
+    "instantiation": "true",
+    "printer_model": "KPSteel i3",
+    "gcode_flavor": "marlin2",
+    "nozzle_type": "brass",
+    "change_filament_gcode": "G1 X10\nG1 Y150\nM25\n",
+    "manual_filament_change": "1",
+    "disable_m73": "1",
+    "fan_kickstart": "1",
+    "machine_end_gcode": "G1 E-1.0 F2100 ; retract\nG92 E0.0\nG1{if max_layer_z < max_print_height} Z{z_offset+min(max_layer_z+30, max_print_height)}{endif} E-10.0 F720 ; move print head up & retract filament\nG4 ; wait\nM104 S0 ; turn off temperature\nM140 S0 ; turn off heatbed\nM107 ; turn off fan\nG1 X0 Y105 F3000 ; park print head\nM84 ; disable motors",
+    "machine_start_gcode": "G90 ; use absolute coordinates\nM83 ; extruder relative mode\nM204 S[machine_max_acceleration_extruding] T[machine_max_acceleration_retracting]\nM104 S[first_layer_temperature] ; set extruder temp\nM140 S[first_layer_bed_temperature] ; set bed temp\nG28 ; home all\nG1 Y1.0 Z0.3 F1000 ; move print head up\nM190 S[first_layer_bed_temperature] ; wait for bed temp\nM109 S[first_layer_temperature] ; wait for extruder temp\nG92 E0.0\n; initial load\nG1 X175.0 E19 F1000\nG1 Y1.6\nG1 X5.0 E19 F1000\nG92 E0.0",
+    "max_layer_height": [
+        "0.48"
+    ],
+    "retraction_length": [
+        "0.35"
+    ],
+    "deretraction_speed": [
+        "0"
+    ],
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "printable_area": [
+        "-5x-5",
+        "175x-5",
+        "175x165",
+        "-5x165"
+    ],
+    "printable_height": "160",
+    "time_cost": "0.32"
+}

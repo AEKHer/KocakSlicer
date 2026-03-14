@@ -25,8 +25,8 @@ static std::unordered_set<std::string> message_containing_retry{
 DeviceErrorDialog::DeviceErrorDialog(MachineObject* obj, wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style)
     :DPIDialog(parent, id, title, pos, size, style), m_obj(obj)
 {
-    std::string icon_path = (boost::format("%1%/images/OrcaSlicerTitle.ico") % resources_dir()).str();
-    SetIcon(wxIcon(encode_path(icon_path.c_str()), wxBITMAP_TYPE_ICO));
+    std::string icon_path = (boost::format("%1%/images/KocakSlicer_128px.png") % resources_dir()).str();
+    SetIcon(wxIcon(encode_path(icon_path.c_str()), wxBITMAP_TYPE_PNG));
     SetBackgroundColour(*wxWHITE);
 
     SetTitle(_L("Error"));

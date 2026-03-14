@@ -15,6 +15,10 @@
             "sub_path": "process/fdm_process_common.json"
         },
         {
+            "name": "fdm_process_marlin_common",
+            "sub_path": "process/fdm_process_marlin_common.json"
+        },
+        {
             "name": "0.12mm Fine @KPSteel i3",
             "sub_path": "process/0.12mm Fine @KPSteel i3.json"
         },
@@ -38,8 +42,16 @@
             "sub_path": "machine/fdm_machine_common.json"
         },
         {
+            "name": "KPSteel i3 0.2 nozzle",
+            "sub_path": "machine/KPSteel i3 0.2 nozzle.json"
+        },
+        {
             "name": "KPSteel i3 0.4 nozzle",
             "sub_path": "machine/KPSteel i3 0.4 nozzle.json"
+        },
+        {
+            "name": "KPSteel i3 0.6 nozzle",
+            "sub_path": "machine/KPSteel i3 0.6 nozzle.json"
         }
     ]
 }
